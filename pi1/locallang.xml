@@ -6,11 +6,22 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="list_mode_1">Mode 1</label>
-			<label index="list_mode_2">Mode 2</label>
-			<label index="list_mode_3">Mode 3</label>
-			<label index="back">Back</label>
-			<label index="submit_button_label">Click here to submit value</label>
+			<label index="clickHereToOpenRouter">Click here to open the routing planner.</label>
+			<label index="routingAddress">Start:</label>
+			<label index="startingPoint">Your starting point</label>
+			<label index="routingMode">Mode:</label>
+			<label index="routingMode_fastest">Fastest</label>
+			<label index="routingMode_shortest">Shortest</label>
+			<label index="calculateRoute">Calculate</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="clickHereToOpenRouter">Klicken Sie hier für eine Kartendarstellung und die Möglichkeit der Routenplanung.</label>
+			<label index="startingPoint">Ihr Startpunkt</label>
+			<label index="routingAddress">Start:</label>
+			<label index="routingMode">Modus:</label>
+			<label index="routingMode_fastest">Schnellste</label>
+			<label index="routingMode_shortest">Kürzeste</label>
+			<label index="calculateRoute">Berechnen</label>
 		</languageKey>
 	</data>
 </T3locallang>

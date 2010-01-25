@@ -152,6 +152,29 @@
               </config>
             </TCEforms>
           </applicationcode>
+          <displaymode>
+            <TCEforms>
+              <label>Darstellungsmodus</label>
+                <config>
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">Sichtbar einbinden</numIndex>
+                    <numIndex index="1">embedVisible</numIndex>
+                  </numIndex>
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">Verdeckt einbinden</numIndex>
+                    <numIndex index="1">embedHidden</numIndex>
+                  </numIndex>
+                </items>         
+                <maxitems>1</maxitems>
+                <size>1</size>
+                <multiple>0</multiple>
+                <selectedListStyle>width:150px</selectedListStyle>
+                <itemListStyle>width:150px</itemListStyle>
+                </config>
+            </TCEforms>
+          </displaymode>      
         </el>
       </ROOT>
     </sDEF>
