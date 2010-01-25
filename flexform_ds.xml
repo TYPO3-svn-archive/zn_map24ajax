@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+    <!--  <langChildren>1</langChildren>!-->
+  </meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>Generelle Konfiguration</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <what_to_display>
+            <TCEforms>
+              <label>Typ der Ausgabe</label>
+                <config>
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">Map</numIndex>
+                    <numIndex index="1">map</numIndex>
+                  </numIndex>
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">Map+Route</numIndex>
+                    <numIndex index="1">map_route</numIndex>
+                  </numIndex>
+                </items>         
+                <maxitems>10</maxitems>
+                <size>2</size>
+                <multiple>0</multiple>
+                <selectedListStyle>width:150px</selectedListStyle>
+                <itemListStyle>width:150px</itemListStyle>
+                </config>
+            </TCEforms>
+          </what_to_display>      
+          <breite>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Breite der Ausgabe</label>
+              <config>
+                <type>input</type>       
+				<size>6</size>
+				<eval>required</eval>
+              </config>
+            </TCEforms>
+          </breite>
+          <hoehe>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Höhe der Ausgabe</label>
+              <config>
+                <type>input</type>   
+				<size>6</size>
+				<eval>required</eval>
+              </config>
+            </TCEforms>
+          </hoehe>
+          <zieladresse>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Zieladresse für den Routenplan</label>
+              <config>
+                <type>input</type>       
+				<size>40</size>
+              </config>
+            </TCEforms>
+          </zieladresse>
+          <latitude>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Latitude</label>
+              <config>
+                <type>input</type>       
+				<size>24</size>
+				<eval>required</eval>
+              </config>
+            </TCEforms>
+          </latitude>
+          <longitude>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Longitude</label>
+              <config>
+                <type>input</type>   
+				<size>24</size>
+				<eval>required</eval>
+              </config>
+            </TCEforms>
+          </longitude>
+          <minimumwidth>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Breite für die zentrierte Darstellung (in Meter)</label>
+              <config>
+                <type>input</type>       
+				<size>4</size>
+				<eval>required</eval>
+              </config>
+            </TCEforms>
+          </minimumwidth>
+          <icon>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Logo des Standortes</label>
+			<config type="array">
+				<type>group</type>
+				<internal_type>file</internal_type>
+				<allowed>gif,jpg,jpeg,tif,bmp,pcx,tga,png,pdf,ai</allowed>
+				<max_size>200</max_size>
+				<uploadfolder>uploads</uploadfolder>
+				<show_thumbs>1</show_thumbs>
+				<maxitems>1</maxitems>
+				<size>1</size>
+					<selectedListStyle>Width:180px</selectedListStyle>
+				</config>            
+			</TCEforms>
+          </icon>
+<!--
+          <titel>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Überschrift des Standortes</label>
+              <config>
+                <type>input</type>       
+				<size>24</size>
+              </config>
+            </TCEforms>
+          </titel>
+          <text>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Beschreibung des Standortes</label>
+              <config>
+				<type>text</type>
+				<cols>30</cols>
+				<rows>5</rows>
+			  </config>
+			  <defaultExtras>richtext[*]:rte_transform[mode=ts_css]</defaultExtras>
+            </TCEforms>
+          </text>	  
+-->		  
+          <applicationcode>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Map24 Applicationcode</label>
+              <config>
+                <type>input</type>       
+				<size>24</size>
+				<eval>required</eval>
+              </config>
+            </TCEforms>
+          </applicationcode>
+        </el>
+      </ROOT>
+    </sDEF>
+  </sheets>
+</T3DataStructure>
